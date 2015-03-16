@@ -1,2 +1,2 @@
 # mint
-Javascript CMS based on Marionette.js 
+Web platform for web sites based on Marionette.js 
