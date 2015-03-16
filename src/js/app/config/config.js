@@ -14,9 +14,9 @@ require.config({
         //"jasmine-html": "../libs/jasmine-html",
 
         // Plugins
-        "backbone.validateAll":"../libs/plugins/Backbone.validateAll",
-        "bootstrap":"../libs/plugins/bootstrap",
-        "text":"../libs/plugins/text"
+        //"backbone.validateAll":"../libs/plugins/Backbone.validateAll",
+        //"bootstrap":"../libs/plugins/bootstrap",
+        //"text":"../libs/plugins/text"
     },
     // Sets the configuration for your third party scripts that are not AMD compatible
     shim:{
