@@ -1,0 +1,60 @@
+@-webkit-keyframes showPhone{
+  0%{
+    bottom: -300px;
+    opacity: 0;
+  }
+  100%{
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes showPhone{
+  0%{
+    bottom: -300px;
+    opacity: 0;
+  }
+  100%{
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes hidePhone{
+  0%{
+    bottom: 0px;
+    opacity: 0;
+  }
+  100%{
+    bottom: -300px;
+    opacity: 1;
+  }
+}
+@keyframes hidePhone{
+  0%{
+    bottom: 0px;
+    opacity: 0;
+  }
+  100%{
+    bottom: -300px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn{
+  0%{
+    margin-left: 150px;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+@keyframes fadeIn{
+  0%{
+    margin-left: 150px;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
