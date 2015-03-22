@@ -9,6 +9,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#check-domain {
+  width: 350px;
+  margin: 0 auto;
+  opacity: 0;
+}
+.nav-btns{
+  width: 400px;
+  height: 50px;
+  margin-top: 15px;
+  opacity: 0;
+  a{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+  }
+}
 .btns-wrapper{
   display: none;
 }

@@ -13,7 +13,7 @@ define(['jquery', 'underscore', 'backbone', 'marionette', 'App',
             ui: {
                 "block":"div.land-block",
                 "phone":"div.phone-intro",
-                "text":"h3.text-intro",
+                "text":"h3.text-big",
                 "btnWrapper":"div.btns-wrapper",
                 "details":"a.details",
                 "start":"a.create"
@@ -25,7 +25,7 @@ define(['jquery', 'underscore', 'backbone', 'marionette', 'App',
                 var self = this;
                 e.preventDefault();
                 this.ui.btnWrapper.fadeOut(400);
-                this.ui.text.animate({marginLeft: 50 + "px", opacity: 0}, 400);
+                this.ui.text.animate({marginLeft: 10 + "%", opacity: 0}, 400);
                 this.ui.phone.animate({"bottom":-300+"px"},500, function(){
                     $(this).hide();
                     Backbone.history.navigate("create", {trigger: true, replace: false});
@@ -35,7 +35,7 @@ define(['jquery', 'underscore', 'backbone', 'marionette', 'App',
                 var self = this;
                 this.ui.block.height(window.innerHeight-120);
                 this.ui.phone.animate({"bottom":0+"px"},600);
-                this.ui.text.animate({marginLeft:0+"px",opacity:1},600,function(){
+                this.ui.text.animate({marginLeft:0+"%",opacity:1},600,function(){
                     self.ui.btnWrapper.fadeIn(400);
                 });
             }

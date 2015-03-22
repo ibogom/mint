@@ -53,6 +53,8 @@ ul.step-list {
   position: relative;
   top: 20px;
   li {
+    position: relative;
+    display: none;
     float: left;
     list-style: none;
     width: 50px;
@@ -64,4 +66,14 @@ ul.step-list {
     margin-right: 50px;
     color: $font-pr-clr;
   }
+  .active{
+    border: 3px solid $font-pr-clr;
+  }
+}
+.bounce{
+  display: block!important;
+  -webkit-animation-name: Bounce; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1.2s; /* Chrome, Safari, Opera */
+  animation-name: Bounce;
+  animation-duration: 1.2s;
 }

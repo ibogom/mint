@@ -38,10 +38,23 @@ $font-thrd-clr: black;
   height: 100%;
   display: table-cell;
 }
-.block-5{
+.block-5-m{
   width: 50%;
   height: 100%;
   display: table-cell;
+  vertical-align: middle;
+}
+.block-5-t{
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: top;
+}
+.block-5-b{
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: bottom;
 }
 .block-7{
   width: 70%;
@@ -72,6 +85,7 @@ $low-index:100;
   border-radius: 20px;
   text-decoration: none;
   margin-right: 5px;
+  text-align: center;
 }
 .btn-active{
   color:$font-thrd-clr;
@@ -86,15 +100,35 @@ $low-index:100;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d4ede7', GradientType=0 );
   padding: 10px 15px;
   text-decoration: none;
+  text-align: center;
 }
 .clr-wht{
   color: $font-pr-clr;
 }
-.text-intro {
+.text-big {
   width: 100%;
   font-weight: 300;
-  margin-left: 50px;
+  margin-left: 10%;
   opacity: 0;
   color: $font-pr-clr;
   font-size: 45px;
 }
+.a-cntr{
+  text-align: center;
+}
+.input-txt {
+  width: 100%;
+  border-radius: 20px;
+  height: 30px;
+  background-color: inherit;
+  border: 1px solid $font-pr-clr;
+  padding: 5px 15px;
+  outline: 0;
+  color: $font-pr-clr;
+  font-size: $font-14px;
+  display: block;
+}
+::-webkit-input-placeholder {color: $font-pr-clr;}
+::-moz-placeholder          {color: $font-pr-clr;}/* Firefox 19+ */
+:-moz-placeholder           {color: $font-pr-clr;}/* Firefox 18- */
+:-ms-input-placeholder      {color: $font-pr-clr;}

@@ -58,3 +58,43 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes Bounce{
+  0%{
+    top:-20px;
+  }
+  20%{
+    top:20px;
+  }
+  40%{
+    top:-10px;
+  }
+  60%{
+    top:10px;
+  }
+  80%{
+    top:-5px;
+  }
+  100%{
+    top:0px;
+  }
+}
+@keyframes Bounce{
+  0%{
+    top:-20px;
+  }
+  20%{
+    top:20px;
+  }
+  40%{
+    top:-10px;
+  }
+  60%{
+    top:10px;
+  }
+  80%{
+    top:-5px;
+  }
+  100%{
+    top:0px;
+  }
+}

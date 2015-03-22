@@ -20,6 +20,10 @@ define(['jquery', 'underscore', 'backbone', 'marionette', 'App',
 
             navigate: function (e) {
                 $(e.currentTarget).addClass("btn-active").siblings().removeClass("btn-active");
+            },
+            onAttach: function(){
+                this.ui.list.hide();
+                this.ui.list.fadeIn(500);
             }
         });
     });

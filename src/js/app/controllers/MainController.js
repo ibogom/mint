@@ -3,8 +3,8 @@ define([
     'jquery',
     'backbone',
     'marionette',
-    'views/InitHeaderView',  'views/InitCreateHeaderView', 'views/InitGetStartedView'
-], function (App, $, Backbone, Marionette, InitHeaderView,InitCreateHeaderView, InitGetStartedView) {
+    'views/InitHeaderView',  'views/InitCreateHeaderView', 'views/InitGetStartedView', 'views/InitCreateDomain'
+], function (App, $, Backbone, Marionette, InitHeaderView,InitCreateHeaderView, InitGetStartedView, InitCreateDomain) {
     "use strict";
     return Backbone.Marionette.Controller.extend({
         initialize: function (options) {
@@ -31,6 +31,7 @@ define([
         },
         createScreen: function () {
             App.header.show(new InitCreateHeaderView());
+            App.mainRegion.show(new InitCreateDomain());
         }
     });
 });

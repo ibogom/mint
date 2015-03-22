@@ -5,7 +5,6 @@ define(['backbone', 'marionette'],
 
             appRoutes: {
                 "": "startScreen",
-                "start":"startScreen",
                 "demo":"demoScreen",
                 "about":"aboutScreen",
                 "feauters":"feautersScreen",
